@@ -37,6 +37,7 @@ function calculateSymbol(){
  {
  Symbol.value = firstNumber /secondNumber
  }
+ 
 }
 
 document.getElementById('add-btn').addEventListener('click', function(){
