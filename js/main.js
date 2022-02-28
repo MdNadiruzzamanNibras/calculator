@@ -19,6 +19,7 @@ function calculateTwo(){
 function calculateSymbol(){
  const Symbol =document.getElementById('symbol');
  const Symboles = Symbol.value;
+ console.log(Symboles);
  const firstNumber =calculate()
  const secondNumber = calculateTwo()
  if (Symbol.value  == '+')
